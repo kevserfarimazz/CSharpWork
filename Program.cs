@@ -127,12 +127,12 @@ namespace _01_MainSubjects
             FriesCount = 3;
             LemonadeCount = 0;
 
-            totalhamburgerPrice = hamburgerCount + HamburgerPrice;
-            totalPizzaPrice= pizzaCount+ PizzaPrice;
-            totalCokePrice = CokeCount + CokePrice;
-            totalWaterPrice = WaterPrice+ WaterCount;
-            totalFriesPrice = FriesPrice+ WaterCount;
-            totalLemonadePrice= LemonadePrice+ LemonadeCount;
+            totalhamburgerPrice = hamburgerCount * HamburgerPrice;
+            totalPizzaPrice= pizzaCount * PizzaPrice;
+            totalCokePrice = CokeCount * CokePrice;
+            totalWaterPrice = WaterPrice * WaterCount;
+            totalFriesPrice = FriesPrice * WaterCount;
+            totalLemonadePrice= LemonadePrice * LemonadeCount;
 
             Console.WriteLine("-----------------------------------");
             Console.WriteLine("Hamburger Tutarı:  " +totalhamburgerPrice + "TL");
