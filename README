@@ -1,0 +1,18 @@
+#Basit Restoran Sipariş Hesaplama Programı (C# Console App)
+
+Bu proje, bir restoranın menüsündeki ürünlerin fiyatlarını görüntüleyip, sipariş adedine göre toplam tutarı hesaplayan basit bir **C# konsol uygulamasıdır**.
+
+Bu uygulama, bir C# eğitim videosu izlenerek öğrenme amacıyla geliştirilmiştir.
+
+#Özellikler
+- Ürün fiyatlarını konsolda listeler.
+- Sipariş miktarlarını değişkenlerle belirler.
+- Her ürün için toplam fiyatı hesaplar.
+- Temel C# değişkenleri ve `Console.WriteLine()` kullanımıyla çalışır.
+
+##Kullanılan Teknolojiler
+- C# (Console Application)
+- .NET Framework / .NET Core
+- Visual Studio
+
+ Bu projeyi, @MuratYucedag hocamdan C# eğitimi izleyerek geliştirdim.
